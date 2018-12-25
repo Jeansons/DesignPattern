@@ -8,9 +8,8 @@ public class Police {
 	 * @return true检查通过|false检查不通过
 	 */
 	public boolean checkLetter(LetterProcess letterProcess) {
- 
+
 		return true; // or false
 	}
-
 
 }

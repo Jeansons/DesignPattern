@@ -1,23 +1,23 @@
 package BuilderPattern;
+
 /**
  * 
  * @project DesignPattern
- * @time 2018年11月2日 
- * @method BMWModel
- *  宝马车模型
+ * @time 2018年11月2日
+ * @method BMWModel 宝马车模型
  */
-public class BMWModel extends CarModel{
+public class BMWModel extends CarModel {
 
 	@Override
 	protected void start() {
 		System.out.println("宝马车跑起来是这个样子的...");
-		
+
 	}
 
 	@Override
 	protected void stop() {
 		System.out.println("宝马车应该这样停车...");
-		
+
 	}
 
 	@Override
@@ -28,8 +28,7 @@ public class BMWModel extends CarModel{
 	@Override
 	protected void engineBoom() {
 		System.out.println("宝马车的引擎是这个声音的...");
-		
+
 	}
-	
 
 }

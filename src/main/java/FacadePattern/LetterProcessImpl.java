@@ -19,8 +19,6 @@ public class LetterProcessImpl implements LetterProcess {
 		System.out.println("填写收件人地址及姓名...." + address);
 	}
 
-
-
 	// 把信放到信封中，并封好
 	public void letterInotoEnvelope() {
 		System.out.println("把信放到信封中....");

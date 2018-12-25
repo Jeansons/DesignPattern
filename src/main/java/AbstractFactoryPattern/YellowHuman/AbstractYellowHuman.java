@@ -1,5 +1,7 @@
 package AbstractFactoryPattern.YellowHuman;
+
 import AbstractFactoryPattern.Human;
+
 /**
  * @author cbf4Life cbf4life@126.com I'm glad to share my knowledge with you
  *         all. 为什么要修改成抽象类呢？要定义性别呀

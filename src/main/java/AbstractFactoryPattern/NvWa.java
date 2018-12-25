@@ -16,7 +16,7 @@ public class NvWa {
 		Human femaleYellowHuman = femaleHumanFactory.createYellowHuman();
 		maleYellowHuman.cry();
 		maleYellowHuman.laugh();
-		//femaleYellowHuman.sex();
+		// femaleYellowHuman.sex();
 		maleYellowHuman.sex();
 		/*
 		 * ..... 后面你可以续了

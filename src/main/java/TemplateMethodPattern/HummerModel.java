@@ -9,8 +9,8 @@ package TemplateMethodPattern;
  *
  */
 public abstract class HummerModel {
-	private boolean alarmFlag = true; //是否要响喇叭  
-	
+	private boolean alarmFlag = true; // 是否要响喇叭
+
 	// 发动起来
 
 	protected abstract void start();
@@ -32,24 +32,25 @@ public abstract class HummerModel {
 		// 引擎开始轰鸣
 		this.engineBoom();
 		// 然后就开始跑了，跑的过程中遇到一条狗挡路，就按喇叭
-		if(this.isAlarm()) {
-		this.alarm();
+		if (this.isAlarm()) {
+			this.alarm();
 		}
 		// 到达目的地就停车
 		this.stop();
 	}
 
-//	protected boolean isAlarm() {
-//		
-//		return true;
-//	}
+	// protected boolean isAlarm() {
+	//
+	// return true;
+	// }
 	// 默认没有喇叭的
-		protected boolean isAlarm() {
-			return this.alarmFlag;
-		}
-		//要不要响喇叭，是有客户的来决定的
-		public void setAlarm(boolean isAlarm) {
-			this.alarmFlag=isAlarm;
-		}
+	protected boolean isAlarm() {
+		return this.alarmFlag;
+	}
+
+	// 要不要响喇叭，是有客户的来决定的
+	public void setAlarm(boolean isAlarm) {
+		this.alarmFlag = isAlarm;
+	}
 
 }

@@ -6,12 +6,12 @@ package AbstractFactoryPattern;
  */
 public enum HumanEnum {
 	// 把世界上所有人类型都定义出来
-	YelloMaleHuman("AbstractFactoryPattern.YellowHuman.YellowMaleHuman"),
-	YelloFemaleHuman("AbstractFactoryPattern.YellowHuman.YellowFemaleHuman"), 
-	WhiteFemaleHuman("AbstractFactoryPattern.WhiteHuman.WhiteFemaleHuman"),
-	WhiteMaleHuman("AbstractFactoryPattern.WhiteHuman.WhiteMaleHuman"), 
-	BlackFemaleHuman("AbstractFactoryPattern.BackHuman.BlackFemaleHuman"), 
-	BlackMaleHuman("AbstractFactoryPattern.BackHuman.BlackMaleHuman");
+	YelloMaleHuman("AbstractFactoryPattern.YellowHuman.YellowMaleHuman"), YelloFemaleHuman(
+			"AbstractFactoryPattern.YellowHuman.YellowFemaleHuman"), WhiteFemaleHuman(
+					"AbstractFactoryPattern.WhiteHuman.WhiteFemaleHuman"), WhiteMaleHuman(
+							"AbstractFactoryPattern.WhiteHuman.WhiteMaleHuman"), BlackFemaleHuman(
+									"AbstractFactoryPattern.BackHuman.BlackFemaleHuman"), BlackMaleHuman(
+											"AbstractFactoryPattern.BackHuman.BlackMaleHuman");
 	private String value = "";
 
 	// 定义构造函数，目的是Data(value)类型的相匹配

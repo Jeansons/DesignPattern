@@ -3,7 +3,7 @@ package StrategyPattern;
 public class BlockEnemy implements IStrategy {
 
 	public void operate() {
-		System.out.println("孙夫人断后，挡住追兵");		
+		System.out.println("孙夫人断后，挡住追兵");
 	}
 
 }

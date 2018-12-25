@@ -1,7 +1,7 @@
 package TemplateMethodPattern;
 
 public class HummerH1Model extends HummerModel {
-	//private boolean alarmFlag = true; //是否要响喇叭
+	// private boolean alarmFlag = true; //是否要响喇叭
 	@Override
 	public void start() {
 		System.out.println("悍马H1发动");
@@ -25,7 +25,5 @@ public class HummerH1Model extends HummerModel {
 		System.out.println("悍马H1引擎声音是这样在...");
 
 	}
-
-	
 
 }

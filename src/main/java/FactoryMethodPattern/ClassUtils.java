@@ -9,9 +9,8 @@ import java.util.List;
 
 /**
  * @author cbf4Life cbf4life@126.com I'm glad to share my knowledge with you
- *         all.
- *        告诉你了，这个ClassUtils可是个宝，用处可大了去了，可以由一个接口查找到所有的实现类，
- *        也可以由父类查找到所有的子类，这个要自己修改一下，动脑筋想下，简单的很！ 
+ *         all. 告诉你了，这个ClassUtils可是个宝，用处可大了去了，可以由一个接口查找到所有的实现类，
+ *         也可以由父类查找到所有的子类，这个要自己修改一下，动脑筋想下，简单的很！
  *
  */
 @SuppressWarnings("all")

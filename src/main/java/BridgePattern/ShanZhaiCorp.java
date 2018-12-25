@@ -10,7 +10,7 @@ public class ShanZhaiCorp extends Corp {
 	// 狂赚钱
 	public void makeMoney() {
 		super.makeMoney();
-		System.out.println("我赚钱呀...");
+		System.out.println("我赚钱呀3333...");
 	}
 
 }

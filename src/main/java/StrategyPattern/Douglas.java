@@ -1,9 +1,9 @@
 package StrategyPattern;
 
-public class Douglas implements IStrategy{
+public class Douglas implements IStrategy {
 
 	public void operate() {
-		System.out.println("逃吧");	
+		System.out.println("逃吧");
 	}
 
 }

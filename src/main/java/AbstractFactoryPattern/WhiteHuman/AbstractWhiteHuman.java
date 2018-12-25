@@ -1,5 +1,7 @@
 package AbstractFactoryPattern.WhiteHuman;
+
 import AbstractFactoryPattern.Human;
+
 /**
  * @author cbf4Life cbf4life@126.com I'm glad to share my knowledge with you
  *         all. 白色人人类 为了代码整洁，新建一个包，这里是白种人的天下了

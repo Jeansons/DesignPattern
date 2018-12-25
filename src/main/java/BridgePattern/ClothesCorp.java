@@ -1,23 +1,23 @@
 package BridgePattern;
 
-public class ClothesCorp extends Corp{
+public class ClothesCorp extends Corp {
 
-public ClothesCorp(Product product) {
+	public ClothesCorp(Product product) {
 		super(product);
 		// TODO Auto-generated constructor stub
 	}
 
-	//	@Override
-//	protected void produce() {
-//		System.out.println("服装公司生产衣服...");
-//		
-//	}
-//
-//	@Override
-//	protected void sell() {
-//		System.out.println("服装公司出售衣服...");
-//		
-//	}
+	// @Override
+	// protected void produce() {
+	// System.out.println("服装公司生产衣服...");
+	//
+	// }
+	//
+	// @Override
+	// protected void sell() {
+	// System.out.println("服装公司出售衣服...");
+	//
+	// }
 	public void makeMoney() {
 		super.makeMoney();
 		System.out.println("服装公司赚小钱了...");
